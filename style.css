@@ -1,0 +1,21 @@
+.body{
+
+}
+
+.player{
+    background-color: black;
+     display:flex;
+    min-height: 260px;
+}
+.player1 img{
+height: 260px;
+}
+.selected{
+    margin-left: 280px;
+}
+.selected h1{
+    color: tomato;
+}
+.selected p{
+    color:white;
+}

@@ -14,6 +14,168 @@
 </head>
 
 <body>
+    
+    <header>
+        
+        <div class="player">
+            <div class="player1">
+                <img src="img/images.jpg">
+
+            </div>
+            <div class="selected">
+                <h1 > SELECT YOUR BEST PLAYER</h1>
+                <p> Ronaldo is my best plsyer
+                    <br>she was born po..<br>
+                   best 
+                </p>
+            </div>
+         <!-- <div class="select"> 
+            <img src="images/images.jpg">
+        </div>  -->
+        </div>
+    
+</header>
+<main class="w-9/12 mx-auto mt-6 pb-20">
+    <div class="grid grid-cols-2 gap-4 divide-x">
+        <div class="grid grid-cols-2 gap-4">
+            <!-- product 1 -->
+            <div>
+                <div class="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src="img/images.jpg" alt="Shoes" class="w-full h-40"/></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Ronaldo</h2>
+                        <p>
+                            Goal:  <span>108</span>
+                        </p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- product 2 -->
+            <div>
+                <div class="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src="img/images.jpg" alt="Shoes" class="w-full h-40"/></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Ronaldo</h2>
+                        <p>
+                            Goals:  <span>113</span>
+                        </p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- product 3 -->
+            <div>
+                <div class="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src="img/images.jpg" alt="Shoes" class="w-full h-40"/></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Ronaldo</h2>
+                        <p>
+                            Goals: <span>112</span>
+                        </p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- product 4 -->
+            <div>
+                <div class="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src="img/images.jpg" alt="Shoes" class="w-full h-40"/></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Ronaldo</h2>
+                        <p>
+                            Goals: <span>105</span>
+                        </p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- product 5 -->
+            <div>
+                <div class="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src="img/images.jpg" alt="Shoes" class="w-full h-40"/></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Ronaldo</h2>
+                        <p>
+                            Goals :  <span>125</span>
+                        </p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div>
+                        <div class="card card-compact w-full bg-base-100 shadow-xl">
+                            <figure><img src="img/images.jpg" alt="Shoes" class="w-full h-40"/></figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Ronaldo</h2>
+                                <p>
+                                    Goals:  <span>125</span>
+                                </p>
+                                <div class="card-actions justify-end">
+                                    <button class="btn btn-primary" onclick="addToCart(this)">Buy Now</button>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CART -->
+        <div>
+            <p class="text-4xl text-center"> Selected-v <span id="total-products" class="text-blue-500">0</span>
+            </p>
+            <div class="overflow-x-auto">
+                <table class="table table-zebra w-full">
+                  <!-- head -->
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Player Name</th>
+                      <!-- <th>Price</th> -->
+                    </tr>
+                  </thead>
+                  <tbody id="products-cart">
+                    <!-- <tr>
+                        <th>1</th>
+                        <td>Cy Ganderton</td>
+                        <td>Quality Control Specialist</td>
+                      </tr> -->
+                  </tbody>
+                </table>
+              </div>
+              <div>
+                <p class="text-4xl text-center">Budget <span id="total-products" class="text-blue-500"></span>
+                </p>
+                <div class="overflow-x-auto">
+                    <table class="table table-zebra w-full">
+                      <!-- head -->
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>Per player :<input type="text" name="text" id="" placeholder="cost">   <br>      <button id="btn-submit"> calculate</button></th>
+                          <!-- <th>Price</th> -->
+                         
+                        
+               
+                        </tr>
+                    </thead>
+                </div>
+
+        </div>
+       
+    </div>
+
+    </div>
+ 
+</main>
     <script src="index.js"></script>
 </body>
 </html>
